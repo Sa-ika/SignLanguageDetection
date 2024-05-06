@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Recognition</title>
+    <style>
+        body{
+
+            background-image: url('bgimage.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+        .headline {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+        <h1 class="headline">Hand Gesture Recognition</h1>
+        <div>
+            <!-- Add your interface elements here -->
+            <center>
+            <img src="{{ url_for('video_feed') }}" width="640" height="480">
+            </center>
+        </div>
+</body>
+</html>
